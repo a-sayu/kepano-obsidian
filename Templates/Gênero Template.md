@@ -1,0 +1,5 @@
+---
+tags:
+  - generos
+---
+![[Gênero.base]]

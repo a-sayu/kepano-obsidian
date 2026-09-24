@@ -1,5 +1,5 @@
 ---
-date: {{date}}
+data: {{date}}
 trade: 
 tags:
   - investment

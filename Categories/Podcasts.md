@@ -1,7 +1,7 @@
 ---
 tags:
-  - categories
-related: "[[Podcast episodes]]"
+  - categorias
+related: "[[Episódios de Podcast]]"
 ---
 
 ![[Podcasts.base]]

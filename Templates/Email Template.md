@@ -1,9 +1,9 @@
 ---
-categories:
+categorias:
   - "[[Emails]]"
-created: {{date}}
+criado em: {{date}}
 org: []
-people: []
+pessoas: []
 url:
-topics:
+topicos:
 ---

@@ -1,8 +1,9 @@
 ---
-categories: "[[People]]"
-type:
+categorias: "[[Pessoas]]"
+tipo:
   - "[[Musicians]]"
-created: {{date}}
+criado em:
+  "{ date }":
 ---
 ## Albums
 

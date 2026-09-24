@@ -1,10 +1,10 @@
 ---
-categories:
+categorias:
   - "[[Shows]]"
-genre: []
-year:
-cast: []
-rating:
-created: {{date}}
-last: {{date}}
+genero: []
+ano:
+elenco: []
+avaliação:
+criado em: {{date}}
+última vez: {{date}}
 ---

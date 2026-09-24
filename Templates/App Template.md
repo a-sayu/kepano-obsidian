@@ -1,5 +1,5 @@
 ---
-categories: "[[Apps]]"
-maker: ""
-rating:
+categorias: "[[Apps]]"
+criador: ""
+avaliação:
 ---

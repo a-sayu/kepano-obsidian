@@ -1,10 +1,10 @@
 ---
-categories:
+categorias:
   - "[[Albums]]"
-genre: []
-artist: ""
-year:
-created: {{date}}
-rating:
+genero: []
+artista: ""
+ano:
+criado em: {{date}}
+avaliação:
 ---
 

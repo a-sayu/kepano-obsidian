@@ -1,11 +1,11 @@
 ---
-categories:
+categorias:
   - "[[Posts]]"
 author:
   - "[[Me]]"
 url:
-created: {{date}}
+criado em: {{date}}
 published:
-topics: []
+topicos: []
 status:
 ---

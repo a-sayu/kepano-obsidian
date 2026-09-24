@@ -1,0 +1,6 @@
+---
+tags:
+  - categorias
+---
+
+![[Viagens.base]]

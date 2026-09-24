@@ -1,14 +1,14 @@
 ---
-categories:
-  - "[[Movies]]"
+categorias:
+  - "[[Filmes]]"
 cover:
-genre: []
-director:
-cast: []
+genero: []
+diretor:
+elenco: []
 runtime:
-rating:
-year:
-last: {{date}}
+avaliação:
+ano:
+última vez: {{date}}
 imdbId:
 via:
 ---

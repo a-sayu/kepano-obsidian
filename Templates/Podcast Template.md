@@ -1,9 +1,9 @@
 ---
-categories:
+categorias:
   - "[[Podcasts]]"
 host: []
-rating:
+avaliação:
 ---
-## Episodes
+## Episódios
 
-![[Podcast episodes.base#Show]]
+![[Episódios de Podcast.base#Show]]

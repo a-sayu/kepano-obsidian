@@ -1,10 +1,10 @@
 ---
-categories:
-  - "[[Companies]]"
-type:
+categorias:
+  - "[[Empresas]]"
+tipo:
   - "[[Game studios]]"
 ---
 
 ## Games
 
-![[Games.base#Studio]]
+![[Jogos.base#Estúdio]]

@@ -1,10 +1,12 @@
 ---
-categories:
-  - "[[Places]]"
-type:
+categorias:
+  - "[[Lugares]]"
+tipo:
   - "[[Restaurants]]"
 loc:
-rating:
-created: {{date}}
-last: {{date}}
+avaliação:
+criado em:
+  "{ date }":
+última vez:
+  "{ date }":
 ---

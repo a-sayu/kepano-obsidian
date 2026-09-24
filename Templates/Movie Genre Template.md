@@ -1,5 +1,5 @@
 ---
 tags:
-  - movies/genres
+  - movies/generos
 ---
-![[Movies.base#Genre]]
+![[Filmes.base#Genre]]

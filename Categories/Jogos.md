@@ -1,0 +1,6 @@
+---
+tags:
+  - categorias
+---
+
+![[Jogos.base]]

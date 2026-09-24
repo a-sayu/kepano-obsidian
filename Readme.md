@@ -1,9 +1,9 @@
-My personal [Obsidian](https://obsidian.md/) vault template. A bottom-up approach to note-taking and organizing things I am interested in. It is in no way dogmatic, just one example of how you can use Obsidian. Take the parts you like and tailor them to your needs.
+O modelo de cofre do [Obsidian](https://obsidian.md/) do Kepano, CEO do Obsidian. Uma abordagem de baixo para cima (*bottom-up*) para tomar notas e organizar assuntos. Não é de forma alguma dogmático, apenas um exemplo de como você pode usar o Obsidian. Pegue as partes que gostar e adapte-as às suas necessidades.
 
-See the article [How I use Obsidian](https://stephango.com/vault) on my site for a detailed explanation of this vault structure.
+Veja o artigo [Como eu uso o Obsidian](https://stephango.com/vault) para uma explicação detalhada da estrutura deste cofre.
 
-## Get started
+## Como começar
 
-1. [Download this vault](https://github.com/kepano/kepano-obsidian/archive/refs/heads/main.zip)
-2. Unzip the .zip file to a folder of your choosing
-3. Open Obsidian and create a new vault pointing to that folder
+1. [Baixe este cofre](https://github.com/kepano/kepano-obsidian/archive/refs/heads/main.zip)
+2. Descompacte o arquivo .zip em uma pasta de sua escolha
+3. Abra o Obsidian e crie um novo cofre apontando para essa pasta

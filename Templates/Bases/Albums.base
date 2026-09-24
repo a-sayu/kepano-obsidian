@@ -24,6 +24,9 @@ views:
       - rating
       - year
       - genre
+    sort:
+      - property: artist
+        direction: DESC
   - type: table
     name: Artist
     filters:

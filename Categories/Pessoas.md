@@ -1,0 +1,6 @@
+---
+tags:
+  - categorias
+---
+
+![[Pessoas.base]]
