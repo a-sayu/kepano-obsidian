@@ -3,8 +3,8 @@ properties:
     displayName: Title
   note.status:
     displayName: Status
-  note.published:
-    displayName: Published
+  note.publicado:
+    displayName: Publicado
 views:
   - type: table
     name: All
@@ -15,7 +15,7 @@ views:
     order:
       - file.name
       - status
-      - published
+      - publicado
     sort:
-      - property: published
+      - property: publicado
         direction: DESC

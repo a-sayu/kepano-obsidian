@@ -5,7 +5,7 @@ filters:
 properties:
   file.name:
     displayName: Entry
-  note.created:
+  note["criado em"]:
     displayName: Created
 views:
   - type: table

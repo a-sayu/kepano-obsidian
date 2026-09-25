@@ -1,6 +1,6 @@
 ---
 tags:
-  - daily
+  - diário
 ---
 ## Notes
 

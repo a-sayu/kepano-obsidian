@@ -8,7 +8,7 @@ url: https://stephango.com/in-good-hands
 criado em: 2023-09-12
 "publicado:" 2023-08-06
 status:
-  - "[[Published]]"
+  - "[[Publicado]]"
 topicos:
 ---
 Existe um sentimento que busco: estar em boas mãos. É o sentimento que procuro proporcionar e o sentimento que procuro receber.

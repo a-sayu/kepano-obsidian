@@ -17,6 +17,6 @@ views:
     order:
       - file.name
       - url
-      - people
+      - pessoas
     columnSize:
       note.url: 239

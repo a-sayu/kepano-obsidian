@@ -33,7 +33,7 @@
         "phone": "text",
         "role": "text",
         "birthday": "date",
-        "guests": "multitext",
+        "convidados": "multitext",
         "cuisine": "multitext",
         "conference": "text",
         "end": "date",
@@ -43,7 +43,7 @@
         "variety": "text",
         "price": "number",
         "author": "multitext",
-        "published": "date",
+        "publicado": "date",
         "where": "multitext",
         "loc": "multitext",
         "monthly-uses": "number",
@@ -51,7 +51,6 @@
         "pages": "number",
         "acquired": "date",
         "criado em": "date",
-        "date": "date",
-        "publicado": "date"
+        "date": "date"
     }
 }

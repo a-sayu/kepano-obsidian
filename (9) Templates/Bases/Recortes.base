@@ -7,10 +7,10 @@ properties:
     displayName: Title
   note.author:
     displayName: Author
-  note.created:
+  note["criado em"]:
     displayName: Clipped
-  note.published:
-    displayName: Published
+  note.publicado:
+    displayName: Publicado
   file.basename:
     displayName: nome
 views:
@@ -37,7 +37,7 @@ views:
       - file.name
       - author
       - created
-      - published
+      - publicado
     sort:
       - property: clipped
         direction: DESC

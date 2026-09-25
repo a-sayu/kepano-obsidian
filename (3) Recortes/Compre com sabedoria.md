@@ -8,7 +8,7 @@ source: https://stephango.com/buy-wisely
 clipped: 2023-11-18
 "publicado:" 2023-09-29
 status:
-  - "[[Published]]"
+  - "[[Publicado]]"
 topicos:
   - "[[Produtos]]"
   - "[[Product usage analysis]]"

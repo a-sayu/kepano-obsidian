@@ -14,7 +14,8 @@ views:
     filters:
       and:
         - this.file.hasLink(file)
-    order: []
+    order:
+      - file.name
     sort:
       - property: file.name
         direction: ASC

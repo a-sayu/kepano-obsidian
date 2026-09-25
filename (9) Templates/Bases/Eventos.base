@@ -1,6 +1,6 @@
 filters:
   and:
-    - categorias.contains(link("Events"))
+    - categorias.contains(link("Eventos"))
     - '!file.name.contains("Template")'
 properties:
   note.end:
@@ -11,7 +11,7 @@ properties:
     displayName: Start
 views:
   - type: table
-    name: Events
+    name: Eventos
     order:
       - file.name
       - start

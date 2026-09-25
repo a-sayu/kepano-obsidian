@@ -10,7 +10,7 @@ properties:
     displayName: Entry
   note.categorias:
     displayName: categorias
-  note.created:
+  note["criado em"]:
     displayName: Criado
   note.tags:
     displayName: Tags
@@ -19,8 +19,7 @@ views:
     name: Notas Diárias
     filters:
       and:
-        - '!file.tags.contains("daily")'
-        - '!file.tags.contains("monthly")'
+        - '!file.tags.contains("mensal")'
         - file.name != this.file.name
     order:
       - file.name
@@ -36,14 +35,13 @@ views:
         direction: ASC
     columnSize:
       file.name: 287
-      note.created: 128
+      note["criado em"]: 128
       note.categorias: 119
   - type: table
     name: Mensal
     filters:
       and:
-        - '!file.tags.contains("daily")'
-        - '!file.tags.contains("monthly")'
+        - '!file.tags.contains("diário")'
         - file.name != this.file.name
     order:
       - file.name
@@ -58,8 +56,8 @@ views:
     name: Yearly
     filters:
       and:
-        - '!file.tags.contains("daily")'
-        - '!file.tags.contains("monthly")'
+        - '!file.tags.contains("diário")'
+        - '!file.tags.contains("mensal")'
         - file.name != this.file.name
     order:
       - file.name

@@ -13,6 +13,6 @@ criado em: 2023-09-12
 
 ![[Recortes.base#Author]]
 
-# Podcast episodes
+# Episódios de Podcast
 
-![[Episódios de Podcast.base#Guest]]
+![[Episódios de Podcast.base#Convidado]]

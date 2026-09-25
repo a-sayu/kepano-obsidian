@@ -12,7 +12,7 @@ topicos:
 tags:
   - 0🌲
 status:
-  - "[[Published]]"
+  - "[[Publicado]]"
 ---
 Usar notas [[Evergreen]] no Obsidian foi a mudança mais impactante na minha forma de pensar.
 

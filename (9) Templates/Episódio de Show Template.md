@@ -1,9 +1,9 @@
 ---
 categorias:
-  - "[[Show episodes]]"
+  - "[[Show episodios]]"
 show:
 season:
-episode:
+episodio:
 avaliação:
 "publicado:"
 ---

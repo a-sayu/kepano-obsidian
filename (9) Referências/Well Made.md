@@ -5,6 +5,6 @@ host:
   - "[[Steph Ango]]"
 avaliação:
 ---
-## Episodes
+## Episodios
 
 ![[Episódios de Podcast.base#Show]]

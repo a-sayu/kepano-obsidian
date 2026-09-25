@@ -10,5 +10,5 @@ avaliação:
 tags:
   - conferences
   - sessions
-  - events
+  - eventos
 ---

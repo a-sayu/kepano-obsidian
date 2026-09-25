@@ -3,11 +3,11 @@ categorias:
   - "[[Episódios de Podcast]]"
 tags:
   - podcast
-  - episodes
+  - episodios
 show:
-guests:
+convidados:
 topicos: []
-episode:
+episodio:
 url:
 avaliação:
 "publicado:"

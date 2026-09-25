@@ -2,7 +2,7 @@
 categorias:
   - "[[Eventos]]"
 tags:
-  - events
+  - eventos
 tipo:
 começo:
 fim:

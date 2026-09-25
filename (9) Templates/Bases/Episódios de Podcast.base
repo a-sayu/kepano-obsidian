@@ -1,34 +1,34 @@
 filters:
   and:
-    - note.categorias.contains(link("Podcast episodes"))
+    - note.categorias.contains(link("Episódios de Podcast"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
     displayName: Podcast
   note.show:
     displayName: Show
-  note.guests:
-    displayName: Guests
-  note.episode:
-    displayName: Episode
+  note.convidados:
+    displayName: Convidados
+  note.episodio:
+    displayName: Episodio
   note.avaliação:
     displayName: avaliação
-  note.published:
-    displayName: Published
-  note.guest:
-    displayName: Guest
+  note.publicado:
+    displayName: Publicado
+  note.convidado:
+    displayName: Convidado
 views:
   - type: table
-    name: All episodes
+    name: All episodios
     order:
       - file.name
       - show
-      - guests
-      - episode
+      - convidados
+      - episodio
       - avaliação
-      - published
+      - publicado
     sort:
-      - property: published
+      - property: publicado
         direction: DESC
   - type: table
     name: Show
@@ -38,19 +38,19 @@ views:
     order:
       - file.name
       - show
-      - episode
+      - episodio
       - avaliação
-      - published
-      - guest
+      - publicado
+      - convidado
   - type: table
-    name: Guest
+    name: Convidado
     filters:
       and:
-        - list(guest).contains(this)
+        - list(convidado).contains(this)
     order:
       - file.name
       - show
-      - guests
-      - episode
+      - convidados
+      - episodio
       - avaliação
-      - published
+      - publicado

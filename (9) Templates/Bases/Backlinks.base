@@ -4,12 +4,12 @@ filters:
 formulas:
   Path: file.path
 properties:
-  note.created:
+  note["criado em"]:
     displayName: Date
   file.name:
     displayName: Title
   note.categorias:
-    displayName: categorias
+    displayName: Categorias
 views:
   - type: table
     name: Backlinks

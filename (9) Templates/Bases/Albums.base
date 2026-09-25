@@ -9,7 +9,7 @@ properties:
     displayName: Year
   note.artist:
     displayName: Artist
-  note.created:
+  note["criado em"]:
     displayName: Added
   note.avaliação:
     displayName: Avaliação

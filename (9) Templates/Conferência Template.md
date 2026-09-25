@@ -7,6 +7,6 @@ começo:
 fim:
 loc:
 tags:
-  - events
+  - eventos
   - conferences
 ---
