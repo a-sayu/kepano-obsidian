@@ -6,7 +6,7 @@ isbn: 201483408
 isbn13: 9780201483406
 pages: 528
 ano: 1992
-author:
+"autor:"
   - "[[Kevin Kelly]]"
 genero:
   - "[[Futurism]]"

@@ -1,14 +1,14 @@
 filters:
   and:
     - '!file.name.contains("Template")'
-    - note.categories.contains(link("Shows"))
+    - note.categorias.contains(link("Shows"))
 properties:
   file.name:
     displayName: Name
   note.last:
     displayName: Last
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: avaliação
   note.year:
     displayName: Year
   note.director:
@@ -23,12 +23,12 @@ views:
     order:
       - file.name
       - year
-      - rating
+      - avaliação
       - last
       - director
       - genre
     sort:
-      - property: rating
+      - property: avaliação
         direction: DESC
       - property: file.name
         direction: ASC
@@ -38,11 +38,11 @@ views:
     name: Favorites
     filters:
       and:
-        - note.rating > 6
+        - note.avaliação > 6
     order:
       - file.name
       - year
-      - rating
+      - avaliação
       - last
       - director
       - genre
@@ -54,7 +54,7 @@ views:
     order:
       - file.name
       - year
-      - rating
+      - avaliação
       - last
       - director
       - genre

@@ -1,6 +1,6 @@
 filters:
   and:
-    - note.categories.contains(link("Podcast episodes"))
+    - note.categorias.contains(link("Podcast episodes"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
@@ -11,8 +11,8 @@ properties:
     displayName: Guests
   note.episode:
     displayName: Episode
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: avaliação
   note.published:
     displayName: Published
   note.guest:
@@ -25,7 +25,7 @@ views:
       - show
       - guests
       - episode
-      - rating
+      - avaliação
       - published
     sort:
       - property: published
@@ -39,7 +39,7 @@ views:
       - file.name
       - show
       - episode
-      - rating
+      - avaliação
       - published
       - guest
   - type: table
@@ -52,5 +52,5 @@ views:
       - show
       - guests
       - episode
-      - rating
+      - avaliação
       - published

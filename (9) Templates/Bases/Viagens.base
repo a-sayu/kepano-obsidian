@@ -1,6 +1,6 @@
 filters:
   and:
-    - note.categories.contains(link("Trips"))
+    - note.categorias.contains(link("Trips"))
     - '!file.name.contains("Template")'
 properties:
   note.start:

@@ -1,12 +1,12 @@
 filters:
   and:
-    - note.categories.contains(link("Places"))
+    - note.categorias.contains(link("Places"))
     - '!file.name.contains("Template")'
 properties:
   note.type:
     displayName: Type
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: avaliação
   note.loc:
     displayName: Location
   file.name:
@@ -18,7 +18,7 @@ views:
     name: Places
     order:
       - file.name
-      - rating
+      - avaliação
       - loc
       - type
       - last
@@ -41,10 +41,10 @@ views:
     order:
       - file.name
       - type
-      - rating
+      - avaliação
       - last
     sort:
-      - property: rating
+      - property: avaliação
         direction: DESC
       - property: last
         direction: DESC
@@ -60,7 +60,7 @@ views:
     order:
       - file.name
       - type
-      - rating
+      - avaliação
       - last
     sort:
       - property: last
@@ -77,12 +77,12 @@ views:
         - '!tags.containsAny("cities", "countries")'
     order:
       - file.name
-      - rating
+      - avaliação
       - loc
       - type
       - last
     sort:
-      - property: rating
+      - property: avaliação
         direction: DESC
       - property: last
         direction: DESC
@@ -92,7 +92,7 @@ views:
         direction: ASC
     columnSize:
       file.name: 162
-      note.rating: 65
+      note.avaliação: 65
       note.loc: 145
       note.type: 199
   - type: table
@@ -104,7 +104,7 @@ views:
     order:
       - file.name
       - type
-      - rating
+      - avaliação
       - last
     sort:
       - property: last

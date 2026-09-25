@@ -1,7 +1,7 @@
 ---
 categorias:
   - "[[Livros]]"
-author:
+"autor:"
   - "[[E. M. Forster]]"
 cover:
 genero:

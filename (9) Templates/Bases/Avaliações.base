@@ -1,23 +1,23 @@
 filters:
   and:
-    - rating > 0
+    - avaliação > 0
 properties:
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: avaliação
   note.last:
     displayName: Last
   file.name:
     displayName: Name
-  note.categories:
-    displayName: Categories
+  note.categorias:
+    displayName: categorias
 views:
   - type: table
-    name: Ratings
+    name: avaliaçãos
     order:
       - file.name
-      - rating
+      - avaliação
       - last
-      - categories
+      - categorias
     sort:
       - property: last
         direction: DESC
@@ -30,9 +30,9 @@ views:
         - last > now() - "60d"
     order:
       - file.name
-      - rating
+      - avaliação
       - last
-      - categories
+      - categorias
     sort:
       - property: last
         direction: DESC

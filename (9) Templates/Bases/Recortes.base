@@ -1,6 +1,6 @@
 filters:
   and:
-    - note.categories.contains(link("Clippings"))
+    - categorias.contains(link("Recortes"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
@@ -11,17 +11,21 @@ properties:
     displayName: Clipped
   note.published:
     displayName: Published
+  file.basename:
+    displayName: nome
 views:
   - type: table
-    name: Clippings
+    name: Recortes
     order:
-      - file.name
-      - author
-      - created
-      - published
+      - file.basename
+      - autor
+      - criado em
+      - publicado
     sort:
-      - property: created
+      - property: file.basename
         direction: DESC
+      - property: created
+        direction: ASC
     columnSize:
       note.author: 140
   - type: table

@@ -1,7 +1,7 @@
 filters:
   and:
     - '!file.name.contains("Template")'
-    - note.categories.contains(link("Projects"))
+    - note.categorias.contains(link("Projects"))
 properties:
   note.status:
     displayName: Status

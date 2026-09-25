@@ -6,7 +6,7 @@ views:
     name: Table
     order:
       - file.name
-      - categories
+      - categorias
     sort: []
     columnSize:
       file.name: 234

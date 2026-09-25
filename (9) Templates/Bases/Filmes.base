@@ -1,14 +1,14 @@
 filters:
   and:
-    - categories.contains(link("Filmes"))
+    - categorias.contains(link("Filmes"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
     displayName: Name
   note.last:
     displayName: Last
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: avaliação
   note.year:
     displayName: Year
   note.director:
@@ -32,7 +32,7 @@ views:
       - file.name
       - year
       - director
-      - rating
+      - avaliação
       - last
       - plot
       - genre
@@ -51,7 +51,7 @@ views:
     filters:
       and:
         - last.isEmpty()
-        - rating.isEmpty()
+        - avaliação.isEmpty()
     order:
       - file.name
       - year
@@ -81,19 +81,19 @@ views:
     name: Favorites
     filters:
       and:
-        - note.rating > 6
+        - note.avaliação > 6
     order:
       - file.name
       - director
       - year
       - genre
-      - rating
-      - ratingImdb
+      - avaliação
+      - avaliaçãoImdb
       - last
     sort:
       - property: file.name
         direction: ASC
-      - property: ratingImdb
+      - property: avaliaçãoImdb
         direction: DESC
     columnSize:
       file.name: 283
@@ -107,7 +107,7 @@ views:
     order:
       - file.name
       - year
-      - rating
+      - avaliação
       - last
       - director
       - genre
@@ -127,9 +127,9 @@ views:
       - year
       - director
       - genre
-      - ratingImdb
+      - avaliaçãoImdb
     sort:
-      - property: ratingImdb
+      - property: avaliaçãoImdb
         direction: DESC
   - type: table
     name: Genre
@@ -138,7 +138,7 @@ views:
         - list(genre).contains(this)
     order:
       - file.name
-      - rating
+      - avaliação
       - year
       - director
       - last
@@ -148,7 +148,7 @@ views:
         direction: DESC
       - property: genre
         direction: ASC
-      - property: rating
+      - property: avaliação
         direction: DESC
     columnSize:
       note.director: 166
@@ -161,21 +161,21 @@ views:
     order:
       - file.name
       - year
-      - rating
+      - avaliação
       - last
       - cast
       - genre
     sort:
       - property: last
         direction: DESC
-      - property: rating
+      - property: avaliação
         direction: ASC
       - property: year
         direction: DESC
     columnSize:
       file.name: 186
       note.year: 79
-      note.rating: 96
+      note.avaliação: 96
       note.genre: 243
   - type: table
     name: Soundtrack
@@ -185,21 +185,21 @@ views:
     order:
       - file.name
       - year
-      - rating
+      - avaliação
       - last
       - cast
       - genre
     sort:
       - property: last
         direction: DESC
-      - property: rating
+      - property: avaliação
         direction: ASC
       - property: year
         direction: DESC
     columnSize:
       file.name: 186
       note.year: 79
-      note.rating: 96
+      note.avaliação: 96
       note.genre: 243
   - type: table
     name: Theater
@@ -208,7 +208,7 @@ views:
         - file.links.contains(this.file)
     order:
       - file.name
-      - rating
+      - avaliação
       - last
       - year
       - scoreImdb
@@ -232,7 +232,7 @@ views:
         direction: ASC
     columnSize:
       file.name: 283
-      note.rating: 94
+      note.avaliação: 94
       note.year: 68
       note.scoreRT: 67
       note.director: 238

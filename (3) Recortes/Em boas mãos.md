@@ -2,11 +2,11 @@
 categorias:
   - "[[Recortes]]"
   - "[[Posts]]"
-author:
+"autor:"
   - "[[Steph Ango]]"
 url: https://stephango.com/in-good-hands
 criado em: 2023-09-12
-published: 2023-08-06
+"publicado:" 2023-08-06
 status:
   - "[[Published]]"
 topicos:

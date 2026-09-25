@@ -1,7 +1,7 @@
 ---
 categorias:
   - "[[Livros]]"
-author: []
+"autor:" []
 cover:
 genero: []
 pages:

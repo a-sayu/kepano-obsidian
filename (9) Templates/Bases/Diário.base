@@ -1,17 +1,17 @@
 filters:
   or:
     - file.name.contains(this.file.name)
-    - created.toString().contains(this.file.name)
-    - start.toString().contains(this.file.name)
-    - end.toString().contains(this.file.name)
+    - note["criado em"].toString().contains(this.file.name)
+    - começo.toString().contains(this.file.name)
+    - fim.toString().contains(this.file.name)
     - file.links.contains(this.file)
 properties:
   file.name:
     displayName: Entry
-  note.categories:
-    displayName: Categories
+  note.categorias:
+    displayName: categorias
   note.created:
-    displayName: Created
+    displayName: Criado
   note.tags:
     displayName: Tags
 views:
@@ -24,22 +24,20 @@ views:
         - file.name != this.file.name
     order:
       - file.name
-      - created
-      - categories
+      - criado em
+      - categorias
       - tags
     sort:
       - property: tags
         direction: ASC
-      - property: created
-        direction: DESC
       - property: file.name
         direction: ASC
-      - property: categories
+      - property: categorias
         direction: ASC
     columnSize:
       file.name: 287
       note.created: 128
-      note.categories: 119
+      note.categorias: 119
   - type: table
     name: Mensal
     filters:
@@ -49,7 +47,7 @@ views:
         - file.name != this.file.name
     order:
       - file.name
-      - categories
+      - categorias
       - created
     sort:
       - property: file.name
@@ -65,7 +63,7 @@ views:
         - file.name != this.file.name
     order:
       - file.name
-      - categories
+      - categorias
       - created
     sort:
       - property: created

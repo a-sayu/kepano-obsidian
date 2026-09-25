@@ -1,6 +1,6 @@
 filters:
   and:
-    - note.categories.contains(link("Podcasts"))
+    - note.categorias.contains(link("Podcasts"))
     - '!file.name.contains("Template")'
 properties:
   file.name:

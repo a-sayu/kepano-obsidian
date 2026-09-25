@@ -10,7 +10,7 @@ topicos: []
 episode:
 url:
 avaliação:
-published:
+"publicado:"
 última vez:
   "{ date }":
 ---

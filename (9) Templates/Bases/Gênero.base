@@ -2,9 +2,9 @@ filters:
   and:
     - list(genre).contains(this)
 properties:
-  note.rating:
-    displayName: Rating
-  note.categories:
+  note.avaliação:
+    displayName: avaliação
+  note.categorias:
     displayName: Category
   note.last:
     displayName: Last
@@ -15,14 +15,14 @@ views:
     name: Gênero
     order:
       - file.name
-      - rating
-      - categories
+      - avaliação
+      - categorias
       - last
     sort:
-      - property: rating
+      - property: avaliação
         direction: DESC
       - property: last
         direction: DESC
     columnSize:
       file.name: 248
-      note.categories: 170
+      note.categorias: 170

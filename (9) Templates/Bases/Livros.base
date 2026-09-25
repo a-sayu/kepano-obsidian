@@ -1,6 +1,6 @@
 filters:
   and:
-    - categories.contains(link("Books"))
+    - categorias.contains(link("Books"))
     - '!file.name.contains("Template")'
 properties:
   note.author:
@@ -19,7 +19,7 @@ views:
       - author
       - length
       - year
-      - rating
+      - avaliação
       - topics
       - last
     sort:
@@ -29,7 +29,7 @@ views:
     name: Top rated
     order:
       - file.name
-      - rating
+      - avaliação
       - last
     sort:
       - property: last

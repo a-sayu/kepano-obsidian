@@ -1,6 +1,6 @@
 filters:
   and:
-    - categories.contains(link("Places"))
+    - categorias.contains(link("Places"))
     - '!file.name.contains("Template")'
 formulas:
   Icon: list(type)[0].asFile().properties.icon
@@ -8,8 +8,8 @@ formulas:
 properties:
   note.type:
     displayName: Type
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: avaliação
   note.loc:
     displayName: Location
   file.name:
@@ -21,7 +21,7 @@ views:
     name: Map
     order:
       - file.name
-      - rating
+      - avaliação
       - loc
       - type
       - last
@@ -54,7 +54,7 @@ views:
         direction: ASC
     columnSize:
       file.name: 162
-      note.rating: 84
+      note.avaliação: 84
       note.loc: 145
       note.type: 199
     coordinates: note.coordinates
@@ -68,7 +68,7 @@ views:
         - list(type).contains(this)
     order:
       - file.name
-      - rating
+      - avaliação
       - type
       - formula.Color
     sort:
@@ -80,7 +80,7 @@ views:
         direction: ASC
     columnSize:
       file.name: 162
-      note.rating: 84
+      note.avaliação: 84
       note.loc: 145
       note.type: 199
     coordinates: note.coordinates

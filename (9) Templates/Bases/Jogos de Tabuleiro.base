@@ -1,12 +1,12 @@
 filters:
   and:
-    - categories.contains(link("Board games"))
+    - categorias.contains(link("Board games"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
     displayName: Game
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: avaliação
   note.last:
     displayName: Last
 views:
@@ -14,5 +14,5 @@ views:
     name: Table
     order:
       - file.name
-      - rating
+      - avaliação
       - last

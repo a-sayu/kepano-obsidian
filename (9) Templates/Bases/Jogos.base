@@ -1,6 +1,6 @@
 filters:
   and:
-    - note.categories.contains(link("Games"))
+    - note.categorias.contains(link("Games"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
@@ -9,8 +9,8 @@ properties:
     displayName: Year
   note.maker:
     displayName: Maker
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: avaliação
   note.genre:
     displayName: Genre
   note.last:
@@ -23,7 +23,7 @@ views:
       - maker
       - genre
       - year
-      - rating
+      - avaliação
       - last
   - type: table
     name: Estúdio
@@ -35,7 +35,7 @@ views:
       - maker
       - genre
       - year
-      - rating
+      - avaliação
       - last
   - type: table
     name: Genre
@@ -47,5 +47,5 @@ views:
       - maker
       - genre
       - year
-      - rating
+      - avaliação
       - last

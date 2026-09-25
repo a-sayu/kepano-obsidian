@@ -1,6 +1,6 @@
 filters:
   and:
-    - categories.contains(link("Meetings"))
+    - categorias.contains(link("Meetings"))
     - '!file.name.contains("Template")'
 properties:
   note.date:

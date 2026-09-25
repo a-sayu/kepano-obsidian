@@ -1,6 +1,6 @@
 filters:
   and:
-    - note.categories.contains(link("Albums"))
+    - note.categorias.contains(link("Albums"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
@@ -11,8 +11,8 @@ properties:
     displayName: Artist
   note.created:
     displayName: Added
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: Avaliação
   note.genre:
     displayName: Genre
 views:
@@ -21,7 +21,7 @@ views:
     order:
       - file.name
       - artist
-      - rating
+      - avaliação
       - year
       - genre
     sort:
@@ -35,7 +35,7 @@ views:
     order:
       - file.name
       - artist
-      - rating
+      - avaliação
       - year
       - genre
   - type: table
@@ -46,6 +46,6 @@ views:
     order:
       - file.name
       - artist
-      - rating
+      - avaliação
       - year
       - genre

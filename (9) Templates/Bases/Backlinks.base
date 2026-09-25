@@ -8,14 +8,14 @@ properties:
     displayName: Date
   file.name:
     displayName: Title
-  note.categories:
-    displayName: Categories
+  note.categorias:
+    displayName: categorias
 views:
   - type: table
     name: Backlinks
     order:
       - file.name
-      - categories
+      - categorias
       - created
     sort:
       - property: created

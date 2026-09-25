@@ -1,6 +1,6 @@
 filters:
   and:
-    - note.categories.contains(link("Recipes"))
+    - note.categorias.contains(link("Recipes"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
@@ -13,8 +13,8 @@ properties:
     displayName: Ingredients
   note.cuisine:
     displayName: Cuisine
-  note.rating:
-    displayName: Rating
+  note.avaliação:
+    displayName: avaliação
 views:
   - type: table
     name: Recipes
@@ -24,7 +24,7 @@ views:
       - cuisine
       - author
       - ingredients
-      - rating
+      - avaliação
     columnSize:
       note.type: 201
       note.cuisine: 174
