@@ -4,9 +4,9 @@ categorias:
   - "[[Recortes]]"
 criado em: 2023-09-14
 url: https://stephango.com/evergreen-notes
-"autor:"
+autor:
   - "[[Steph Ango]]"
-"publicado:" "[[2022-09-16]]"
+publicado: "[[2022-09-16]]"
 topicos:
   - "[[Evergreen]]"
 tags:

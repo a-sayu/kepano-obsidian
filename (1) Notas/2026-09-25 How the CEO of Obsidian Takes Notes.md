@@ -2,7 +2,6 @@
 criado em: 2026-09-25
 tags:
   - note
-  - journal
   - clippings
 categorias:
   - "[[Recortes]]"
