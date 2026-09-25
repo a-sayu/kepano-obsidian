@@ -5,5 +5,5 @@ show:
 season:
 episodio:
 avaliação:
-"publicado:"
+publicado:
 ---

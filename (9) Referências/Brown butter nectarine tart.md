@@ -8,12 +8,12 @@ tipo:
   - "[[Dessert]]"
 ingredients:
   - "[[Nectarine]]"
-"autor:"
+autor:
   - "[[Steph Ango]]"
 url: https://stephango.com/brown-butter-nectarine-tart
 servings: 8 slices (11 inch tart)
 avaliação: 7
-"publicado:" 2023-07-30
+publicado: 2023-07-30
 criado em: 2023-09-12
 última vez: 2023-09-12
 ---

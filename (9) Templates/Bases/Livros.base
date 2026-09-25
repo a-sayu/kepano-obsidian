@@ -3,8 +3,8 @@ filters:
     - categorias.contains(link("Books"))
     - '!file.name.contains("Template")'
 properties:
-  note.author:
-    displayName: Author
+  note.autor:
+    displayName: Autor
   file.name:
     displayName: Name
   note.year:
@@ -16,7 +16,7 @@ views:
     name: Books
     order:
       - file.name
-      - author
+      - autor
       - length
       - year
       - avaliação
@@ -38,7 +38,7 @@ views:
     name: Autor
     filters:
       and:
-        - list(author).contains(this)
+        - list(autor).contains(this)
     order:
       - file.name
       - year

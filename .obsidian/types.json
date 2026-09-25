@@ -42,7 +42,7 @@
         "shares": "number",
         "variety": "text",
         "price": "number",
-        "author": "multitext",
+        "autor": "multitext",
         "publicado": "date",
         "where": "multitext",
         "loc": "multitext",

@@ -1,26 +1,26 @@
 filters:
   and:
-    - categorias.contains(link("Meetings"))
+    - categorias.contains(link("Reuniões"))
     - '!file.name.contains("Template")'
 properties:
   note.date:
     displayName: Date
-  note.people:
-    displayName: People
+  note.pessoas:
+    displayName: Pessoas
   note.type:
     displayName: Type
   file.name:
-    displayName: Meeting
+    displayName: Reunião
   note.org:
     displayName: Org
 views:
   - type: table
-    name: Meetings
+    name: Reuniões
     order:
       - file.name
       - date
       - type
-      - people
+      - pessoas
     sort:
       - property: date
         direction: ASC
@@ -28,12 +28,12 @@ views:
     name: Pessoa
     filters:
       and:
-        - list(people).contains(this)
+        - list(pessoas).contains(this)
     order:
       - file.name
       - date
       - type
-      - people
+      - pessoas
     sort:
       - property: date
         direction: ASC
@@ -45,7 +45,7 @@ views:
     order:
       - file.name
       - date
-      - people
+      - pessoas
       - org
     sort:
       - property: date

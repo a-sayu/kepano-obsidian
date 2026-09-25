@@ -3,11 +3,11 @@ categorias:
   - "[[Recortes]]"
 tags:
   - clippings
-"autor:" []
+autor: []
 url: ""
 criado em:
   "{ date }":
-"publicado:"
+publicado:
 topicos: []
 ---
 

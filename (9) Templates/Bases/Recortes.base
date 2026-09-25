@@ -5,8 +5,8 @@ filters:
 properties:
   file.name:
     displayName: Title
-  note.author:
-    displayName: Author
+  note.autor:
+    displayName: Autor
   note["criado em"]:
     displayName: Clipped
   note.publicado:
@@ -27,15 +27,15 @@ views:
       - property: created
         direction: ASC
     columnSize:
-      note.author: 140
+      note.autor: 140
   - type: table
-    name: Author
+    name: Autor
     filters:
       and:
-        - list(author).contains(this)
+        - list(autor).contains(this)
     order:
       - file.name
-      - author
+      - autor
       - created
       - publicado
     sort:

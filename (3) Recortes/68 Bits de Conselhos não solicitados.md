@@ -1,11 +1,11 @@
 ---
 categorias:
   - "[[Recortes]]"
-"autor:"
+autor:
   - "[[Kevin Kelly]]"
 url: https://kk.org/thetechnium/68-bits-of-unsolicited-advice/
 criado em: 2023-09-12
-"publicado:" 2020-04-28
+publicado: 2020-04-28
 topicos: []
 ---
 É meu aniversário. Estou fazendo 68 anos. Sinto vontade de puxar uma cadeira de balanço e dar conselhos aos mais jovens. Aqui estão 68 conselhos sucintos e não solicitados que ofereço como meu presente de aniversário a todos vocês.

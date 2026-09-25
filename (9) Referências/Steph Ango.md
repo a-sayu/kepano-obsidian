@@ -2,7 +2,7 @@
 categorias:
   - "[[Pessoas]]"
 tipo:
-  - "[[Authors]]"
+  - "[[Autors]]"
 org:
   - "[[Obsidian]]"
 criado em: 2023-09-12
@@ -11,8 +11,8 @@ url: https://stephango.com/
 ---
 ## Clippings
 
-![[Recortes.base#Author]]
+![[Recortes.base#Autor]]
 
-## Meetings
+## Reuniões
 
 ![[Reuniões.base#Pessoa]]

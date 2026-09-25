@@ -4,7 +4,7 @@ categorias:
 cuisine:
 tipo: []
 ingredients:
-"autor:" []
+autor: []
 url:
 avaliação:
 criado em:
@@ -14,12 +14,12 @@ criado em:
 ---
 ## Ingredients
 
-- 
+-
 
 ## Directions
 
-- 
+-
 
 ## Notes
 
-- 
+-

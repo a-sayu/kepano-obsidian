@@ -2,11 +2,11 @@
 categorias:
   - "[[Recortes]]"
   - "[[Posts]]"
-"autor:"
+autor:
   - "[[Steph Ango]]"
 source: https://stephango.com/buy-wisely
 clipped: 2023-11-18
-"publicado:" 2023-09-29
+publicado: 2023-09-29
 status:
   - "[[Publicado]]"
 topicos:

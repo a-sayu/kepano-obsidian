@@ -6,9 +6,9 @@ tags:
   - clippings
 categorias:
   - "[[Recortes]]"
-"autor:" []
+autor: []
 url: https://www.youtube.com/watch?v=29UKskHPj1s
-"publicado:"
+publicado:
 topicos:
   - "[[Writing]]"
   - "[[Guide]]"

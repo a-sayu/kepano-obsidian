@@ -1,7 +1,7 @@
 ---
 categorias: "[[Pessoas]]"
 tipo:
-  - "[[Authors]]"
+  - "[[Autors]]"
 ---
 ## Books
 

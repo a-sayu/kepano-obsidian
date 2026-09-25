@@ -5,8 +5,8 @@ filters:
 properties:
   file.name:
     displayName: Name
-  note.author:
-    displayName: Author
+  note.autor:
+    displayName: Autor
   note.type:
     displayName: Type
   note.ingredients:
@@ -22,7 +22,7 @@ views:
       - file.name
       - type
       - cuisine
-      - author
+      - autor
       - ingredients
       - avaliação
     columnSize:
