@@ -6,7 +6,7 @@ criado em: 2023-09-14
 url: https://stephango.com/evergreen-notes
 author:
   - "[[Steph Ango]]"
-published: 2022-09-16
+published: "[[2022-09-16]]"
 topicos:
   - "[[Evergreen]]"
 tags:
@@ -14,7 +14,7 @@ tags:
 status:
   - "[[Published]]"
 ---
-Usar notas [[evergreen]] no Obsidian foi a mudança mais impactante na minha forma de pensar.
+Usar notas [[Evergreen]] no Obsidian foi a mudança mais impactante na minha forma de pensar.
 
 Notas evergreen permitem que você pense sobre ideias complexas construindo-as a partir de ideias menores e compostáveis.
 
