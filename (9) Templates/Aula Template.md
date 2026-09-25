@@ -1,11 +1,12 @@
 ---
 categorias:
-  - "[[Reuniões]]"
-tipo: []
+  - "[[Aulas]]"
+tags:
+  - aula
 date:
   "{ date }":
-org:
 loc:
 pessoas: []
 topicos: []
+disciplina:
 ---

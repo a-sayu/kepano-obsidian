@@ -10,7 +10,7 @@ views:
     name: All
     filters:
       and:
-        - list(categories).contains(link("Posts"))
+        - list(categorias).contains(link("Posts"))
         - '!file.name.contains("Template")'
     order:
       - file.name

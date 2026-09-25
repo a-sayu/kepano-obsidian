@@ -5,7 +5,7 @@ tipo:
   - "[[Job Interviews]]"
 org:
 pessoas: []
-data:
+date:
   "{ date }":
 role:
 avaliação:

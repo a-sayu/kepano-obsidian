@@ -1,0 +1,17 @@
+properties:
+  file.name:
+    displayName: Aula
+views:
+  - type: table
+    name: Aulas
+    filters:
+      and:
+        - list(categorias).contains(link("Aulas"))
+        - '!file.name.contains("Template")'
+    order:
+      - file.name
+      - date
+      - disciplina
+    sort:
+      - property: date
+        direction: ASC
